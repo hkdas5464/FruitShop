@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+@layer base {
+  button {
+    @apply transition-colors duration-200;
+  }
+  a {
+    @apply transition-colors duration-200;
+  }
+}
